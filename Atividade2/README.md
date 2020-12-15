@@ -11,4 +11,5 @@ void x(double valor) {
 
 5.	O código dar erro pois na definição do método Radio foi pedido um parâmetro que não foi dado no método construtor do objeto r.
 6.	a) os dois prints vão mostrar 90 pois a partir da atribuição de c1 em c2 ele aponta para o mesmo lugar em memoria logo não tem como ocorrer a transferência de c1 para c2.
-b) Por não ter mais referencia o c1 será excluído pelo garbage collector.
+
+   b) Por não ter mais referencia o c1 será excluído pelo garbage collector.
