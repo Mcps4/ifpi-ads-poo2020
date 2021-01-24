@@ -8,12 +8,8 @@ public class TestePilha {
 		pilha.empilhar(2);
 		pilha.desempilhar();
 		pilha.empilhar(3);
-		pilha.empilhar(34);
-
-		
-		System.out.println(pilha.estaCheia() ? "V." : "F.");
+		System.out.println(pilha.estaCheia());
 		System.out.println(pilha.retornarTopo());
-		
 		pilha.exibir();
 	}
 
